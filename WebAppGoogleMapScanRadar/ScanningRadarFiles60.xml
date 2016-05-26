@@ -1,0 +1,8 @@
+<files>
+<mux name="http://www.esrl.noaa.gov/psd/data/obs/realtime/ScanningRadar/Images/mux/2016/138/mux161381753_reflectivity_0.5.gif" latlongbounds="39.21610502199589,35.09389071545922,-119.32239472825418,-124.47360527218287" angle="0.5" epochtime="1463507580" />
+<mux name="http://www.esrl.noaa.gov/psd/data/obs/realtime/ScanningRadar/Images/mux/2016/138/mux161381803_reflectivity_0.5.gif" latlongbounds="39.21610502199589,35.09389071545922,-119.32239472825418,-124.47360527218287" angle="0.5" epochtime="1463508180" />
+<mux name="http://www.esrl.noaa.gov/psd/data/obs/realtime/ScanningRadar/Images/mux/2016/138/mux161381812_reflectivity_0.5.gif" latlongbounds="39.21610502199589,35.09389071545922,-119.32239472825418,-124.47360527218287" angle="0.5" epochtime="1463508720" />
+<mux name="http://www.esrl.noaa.gov/psd/data/obs/realtime/ScanningRadar/Images/mux/2016/138/mux161381822_reflectivity_0.5.gif" latlongbounds="39.21610502199589,35.09389071545922,-119.32239472825418,-124.47360527218287" angle="0.5" epochtime="1463509320" />
+<mux name="http://www.esrl.noaa.gov/psd/data/obs/realtime/ScanningRadar/Images/mux/2016/138/mux161381832_reflectivity_0.5.gif" latlongbounds="39.21610502199589,35.09381430759528,-119.32239472825418,-124.47360527218287" angle="0.5" epochtime="1463509920" />
+<mux name="http://www.esrl.noaa.gov/psd/data/obs/realtime/ScanningRadar/Images/mux/2016/138/mux161381841_reflectivity_0.5.gif" latlongbounds="39.21610502199589,35.09389071545922,-119.32239472825418,-124.47360527218287" angle="0.5" epochtime="1463510460" />
+</files>
