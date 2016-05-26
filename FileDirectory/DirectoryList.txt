@@ -1,0 +1,92 @@
+Field Path (Windows Path),Archive Path (Linux path),File Regular Expression,File Example,Start Position for Daily Time Stamp,Include/Exclude
+\EtlData\Radar3000\SpecMom,/data/archive/psd2/archive/Radar3000/SpecMom,[HD]\d\d\d\d\d\w\.(SPC|zip|MOM),D08304a.zip D08304a.SPC,1,Y
+\EtlData\Radar3000\WindTemp,/data/archive/psd2/archive/Radar3000/WindTemp,[WT]\d\d\d\d\d\.(CNS||zip),W08303.zip,1,Y
+\EtlData\Radar3000\Hourly,/data/archive/psd2/archive/Radar3000/Hourly,([HD]\w\w\w\d\d\d\d\d\d\da\.(MOM|zip)|\w\w\w\d\d\d\d\d\.(zip|\d\d[wt])|\w\w\w\d\d\d\d\d\d\d\.(ml|snw|zip)),Dptc0833822a.zip,-1,N
+\EtlData\Radar915\Hourly,/data/archive/psd2/archive/Radar915/Hourly,(\w\w\w\d\d\d\d\d\d\d\.(snw|pbl|ml|MOM|bl)|\w\w\w\d\d\d\d\d\.\d\d(t|w)|[DH]\w\w\w\d\d\d\d\d\d\da\.(MOM|zip)),bby0833308.snw bby08333.07w,-1,N
+\EtlData\Radar915\WwHourly,/data/archive/psd2/archive/Radar915/WwHourly,(\w\w\w\d\d\d\d\d\d\d\.(snw|pbl|ml|MOM|bl)|\w\w\w\d\d\d\d\d\.\d\d(t|w)|[DH]\w\w\w\d\d\d\d\d\d\da\.(MOM|zip)),bby0833308.snw bby08333.07w,-1,N
+\EtlData\Radar915\SpecMom,/data/archive/psd2/archive/Radar915/SpecMom,[HD]\d\d\d\d\d\w\.(SPC|zip|MOM),D08114a.SPC H08304a.SPC,1,Y
+\EtlData\Radar915\SpecMomPop,/data/archive/psd2/archive/Radar915/SpecMomPop,[HD]\d\d\d\d\d\w\.(SPC|zip|MOM),D08114a.SPC H08304a.SPC,1,Y
+\EtlData\Radar915\Ts,/data/archive/psd2/archive/Radar915/TimeSeries,[HD]\w\w\w\d\d\d\d\d\d\d\w\.(TS|zip),Dbfl0811423a.SPC Hbfl0830423a.TS,4,Y
+\EtlData\Radar915\WwWindTemp,/data/archive/psd2/archive/Radar915/WwWindTemp,[WT]\d\d\d\d\d\.(CNS|zip),W08202.CNS,1,Y
+\EtlData\Radar915\WindTemp,/data/archive/psd2/archive/Radar915/WindTemp,[WT]\d\d\d\d\d\.(CNS|zip),W08202.CNS,1,Y
+\EtlData\Radar449\SpecMom,/data/archive/psd2/archive/Radar449/SpecMom,[HD]\d\d\d\d\d\w\.(SPC|zip|MOM),D08304a.SPC,1,Y
+\EtlData\Radar449\SpecMomPop,/data/archive/psd2/archive/Radar449/SpecMomPop,[HD]\d\d\d\d\d\w\.(SPC|zip|MOM),D08304a.SPC,1,Y
+\EtlData\Radar449\Ts,/data/archive/psd2/archive/Radar449/TimeSeries,[HD]\w\w\w\d\d\d\d\d\d\d\w\.(TS|zip),Dbfl0830423a.TS,-1,Y
+\EtlData\Radar449\WindTemp,/data/archive/psd2/archive/Radar449/WindTemp,[WT]\d\d\d\d\d\.(CNS|zip),W08202.CNS,1,Y
+\EtlData\Radar449\WwWindTemp,/data/archive/psd2/archive/Radar449/WwWindTemp,[WT]\d\d\d\d\d\.(CNS|zip),W08202.CNS,1,Y
+\EtlData\Radar449\Hourly,/data/archive/psd2/archive/Radar449/Hourly,([HD]\w\w\w\d\d\d\d\d\d\da\.(MOM|zip)|\w\w\w\d\d\d\d\d\.(zip|\d\d[wt])|\w\w\w\d\d\d\d\d\d\d\.(ml|snw|zip)),Dptc0833822a.zip,-1,N
+\EtlData\Radar449\WwHourly,/data/archive/psd2/archive/Radar449/WwHourly,([HD]\w\w\w\d\d\d\d\d\d\da\.(MOM|zip)|\w\w\w\d\d\d\d\d\.(zip|\d\d[wt])|\w\w\w\d\d\d\d\d\d\d\.(ml|snw|zip)),Dptc0833822a.zip,-1,N
+\EtlData\RadarFMCW\SpecMom,/data/archive/psd2/archive/RadarFMCW/SpecMom,([HD]\w\w\w\d\d\d\d\d\w\.(SPC|zip|MOM)|.+\.(parx|log)),D08304a.zip D08304a.SPC,1,Y
+\EtlData\RadarFMCW\Hourly,/data/archive/psd2/archive/RadarFMCW/Hourly,([HD]\w\w\w\d\d\d\d\d\d\da\.(MOM|zip)|\w\w\w\d\d\d\d\d\.(zip|\d\d[wt])|\w\w\w\d\d\d\d\d\d\d\.(ml|snw|zip)),Dptc0833822a.zip,-1,N
+\EtlData\CsiSurfaceMet\Daily,/data/archive/psd2/archive/DataloggerCampbell/SurfaceMet,\w\w\w\d\d\d\d\d\.(met|zip),pts08065.met,3,Y
+\EtlData\CsiSurfaceMet\Hourly,/data/archive/psd2/archive/DataloggerCampbell/SurfaceMet/Hourly,\w\w\w\d\d\d\d\d\.\d\d(m|zip),pts08065.12m,-1,N
+\EtlData\CsiTowerMet\Daily,/data/archive/psd2/archive/DataloggerCampbell/TowerMet,\w\w\w\d\d\d\d\d\.(met|zip),pts08065.met,3,Y
+\EtlData\CsiTowerMet\Hourly,/data/archive/psd2/archive/DataloggerCampbell/TowerMet/Hourly,\w\w\w\d\d\d\d\d\d\d\.(met|zip),pts0806512.met,-1,N
+\EtlData\CsiSurfaceFlux\Daily,/data/archive/psd2/archive/DataloggerCampbell/SurfaceFlux,\w\w\w\d\d\d\d\d\.(met|zip),pts08065,3,Y
+\EtlData\CsiSurfaceFlux\Hourly,/data/archive/psd2/archive/DataloggerCampbell/SurfaceFlux/Hourly,\w\w\w\d\d\d\d\d\d\d\.(met|zip),pts0806512.met,-1,N
+\EtlData\DisdrometerDistromet\Raw,/data/archive/psd2/archive/DisdrometerDistrometJoss/Raw,\w\w\w\d\d\d\d\d\d\d\d\_raw\.(txt|zip),ptc00831523_raw.zip,-1,Y
+\EtlData\DisdrometerDistromet\Stats,/data/archive/psd2/archive/DisdrometerDistrometJoss/Stats,\w\w\w\d\d\d\d\d\d\d\db\d+\.(txt|zip),ptc10830323b20.zip,-1,Y
+\EtlData\DisdrometerParsivel\Raw,/data/archive/psd2/archive/DisdrometerOTTParsivel/Raw,\w\w\w\d\d\d\d\d\d\d\d_raw\.(txt|zip),blu00801522_raw.txt,-1,Y
+\EtlData\DisdrometerParsivel\Stats,/data/archive/psd2/archive/DisdrometerOTTParsivel/Stats,\w\w\w\d\d\d\d\d\d\d\d_stats\.(txt|zip),blu00801522_stats.txt,-1,Y
+\EtlData\SodarEtlMonostatic\Images,/data/archive/psd2/archive/SodarPsdMonostatic/Reflectivity,\d\d\d\d\d_\d\d\d\d_SodarPC\.(jpg|zip),08212_0800_SodarPC.jpg,0,Y
+\EtlData\SodarEtlMonostatic\Reflectivity,/data/archive/psd2/archive/SodarPsdMonostatic/Reflectivity,\d\d\d\d\d_\d\d\d\d_SodarPC\.(nc|zip),07165_SodarPC.nc,0,Y
+\EtlData\SodarEtlMonostatic\SpecMom,/data/archive/psd2/archive/SodarPsdMonostatic/Reflectivity,[DH]\d\d\d\d\da\.(mom|zip),D90257A.MOM,1,Y
+\EtlData\SodarEtlMonostatic\Winds,/data/archive/psd2/archive/SodarPsdMonostatic/Wind,\w\w\w\d\d\d\d\d\.(cdf|zip),ech61213.cdf,3,Y
+\EtlData\SodarAeroMonostatic\Reflectivity,/data/archive/psd2/archive/SodarAeroVironmentMonostatic/Reflectivity,\d\d\d\d\d\d\.(dfs|zip),000601AN.DFS,1,Y
+\EtlData\SodarAeroMonostatic\Images,/data/archive/psd2/archive/SodarAeroVironmentMonostatic/Reflectivity,Unknown,Unkown,-1,Y
+\EtlData\SodarAeroMonostatic\SpecMom,/data/archive/psd2/archive/SodarAeroVironmentMonostatic/SpecMom,[DH]\d\d\d\d\da\.(mom|zip),D90257A.MOM,1,Y
+\EtlData\SodarAeroMonostatic\Winds,/data/archive/psd2/archive/SodarAeroVironmentMonostatic/Winds,\w\w\w\d\d\d\d\d\.(cns|zip),lhs00340.cns,3,Y
+\EtlData\GpsTrimble\WaterVapor,/data/archive/psd2/archive/GpsTrimble/Raw,\w\w\w\d\d\d\d\d\d\d\d\d\d\.([rt]00|zip),pts1090042300.t00,-1,Y
+\EtlData\GpsGarmin\Raw,/data/archive/psd2/archive/GpsGarmin/Raw,Unknown,Unknown,-1,Y
+\EtlData\CeiloVaisala12k\Images,/data/archive/psd2/archive/CeilometerVaisala12k/Reflectivity,Unknown,Unknown,-1,Y
+\EtlData\CeiloVaisala12k\Reflectivity,/data/archive/psd2/archive/CeilometerVaisala12k/Reflectivity,\w\w\w\d\d\d\d\d\.(ref|zip),sns02356.ref,3,Y
+\EtlData\CeiloVaisala12k\CloudBase,/data/archive/psd2/archive/CeilometerVaisala12k/CloudBase,\w\w\w\d\d\d\d\d\d\d\.(cld|zip),sns1014620.cld,3,Y
+\EtlData\CeiloVaisala25k\Images,/data/archive/psd2/archive/CeilometerVaisala25k/Reflectivity,Unknown,Unknown,-1,Y
+\EtlData\CeiloVaisala25k\Reflectivity,/data/archive/psd2/archive/CeilometerVaisala25k/Reflectivity,\w\w\w\d\d\d\d\d\.(ref|zip),kbv06229.ref,3,Y
+\EtlData\CeiloVaisala31k\Images,/data/archive/psd2/archive/CeilometerVaisala31k/Reflectivity,Unknown,Unknown,-1,Y
+\EtlData\CeiloVaisala31k\Reflectivity,/data/archive/psd2/archive/CeilometerVaisala31k/Reflectivity,\w\w\w\d\d\d\d\d\.(ref|zip),bao08181.ref,3,Y
+\EtlData\CameraHorizon\Images,/data/archive/psd2/archive/CameraHorizon/Images,\w\w\w\d\d\d\d\d\d\d\.zip,spd0210041.zip,-1,Y
+\EtlData\CameraHorizon\Movies,/data/archive/psd2/archive/CameraHorizon/Movies,Unknown,Unknown,-1,Y
+\EtlData\CameraAllSky\Images,/data/archive/psd2/archive/CameraAllSky/Images,Unknown,Unknown,-1,Y
+\EtlData\CameraAllSky\Movies,/data/archive/psd2/archive/CameraAllSky/Movies,Unknown,Unknown,-1,Y
+\EtlData\SonicAti\Raw,/data/archive/psd2/archive/SonicAnemometerAti/Raw,\w\w\w\d\d\d\d\d\d\d\d_raw.(txt|zip),gnb01101900_raw.txt,-1,Y
+\EtlData\SonicAti\Stats,/data/archive/psd2/archive/SonicAnemometerAti/Stats,\w\w\w\d\d\d\d\d\d\d\d_stats.(txt|zip),gnb01101900_stats.txt,-1,Y
+\EtlData\SonicGill\Raw,/data/archive/psd2/archive/SonicAnemometerGill/Raw,P\d_\d\d\d\d\d,P0_19108,3,Y
+\EtlData\SonicGill\Stats,/data/archive/psd2/archive/SonicAnemometerGill/Stats,Unknown,Unknown,-1,Y
+\EtlData\SonicMetek\Raw,/data/archive/psd2/archive/SonicAnemometerMetek/Raw,Unknown,Unknown,-1,Y
+\EtlData\SonicMetek\Stats,/data/archive/psd2/archive/SonicAnemometerMetek/Stats,Unknown,Unknown,-1,Y
+\EtlData\HygroOphir\Raw,/data/archive/psd2/archive/HygrometerOphir/Raw,\d\d\d\d\d\d\d\.(p\d\d|zip),0218918.p10,-1,Y
+\EtlData\HygroOphir\Stats,/data/archive/psd2/archive/HygrometerOphir/Stats,Unknown,Unknown,-1,Y
+\EtlData\GasLicor\Raw,/data/archive/psd2/archive/GasAnalyzerLicor/Raw,\w\w\w\d\d\d\d\d\d\d\d_raw.(txt|zip),gnb01101900_raw.txt,0,Y
+\EtlData\GasLicor\Stats,/data/archive/psd2/archive/GasAnalyzerLicor/Stats,\w\w\w\d\d\d\d\d\d\d\d_stats.(txt|zip),gnb01101900_stats.txt,-1,Y
+\EtlData\GasOakRidge\Raw,/data/archive/psd2/archive/GasAnalyzerOakRidge/Raw,Unknown,Unknown,-1,Y
+\EtlData\GasOakRidge\Stats,/data/archive/psd2/archive/GasAnalyzerOakRidge/Stats,Unknown,Unknown,-1,Y
+\EtlData\ShipHeading\Raw,/data/archive/psd2/archive/ShipNavagation/Raw,Unknown,Unknown,-1,Y
+\EtlData\MotionCrossbow\Raw,/data/archive/psd2/archive/MotionCrossbow/Raw,\d\d\d\d\d\d\d\.(dat|zip),0120102.dat,0,Y
+\EtlData\MotionCrossbow\Stats,/data/archive/psd2/archive/MotionCrossbow/Stats,Unknown,Unknown,-1,Y
+\EtlData\MotionEtl\Raw,/data/archive/psd2/archive/MotionPsd/Raw,Unknown,Unknown,-1,Y
+\EtlData\MotionEtl\Stats,/data/archive/psd2/archive/MotionPsd/Stats,Unknown,Unknown,-1,Y
+\EtlData\PrecipitationYankee\Raw,/data/archive/psd2/archive/PrecipitationYankeeHotPlate/Raw,\w\w\w\d\d\d\d\d\d\d\d_raw\.(txt|zip),blu00602307_raw.txt,-1,Y
+\EtlData\PrecipitationYankee\Stats,/data/archive/psd2/archive/PrecipitationYankeeHotPlate/Stats,\w\w\w\d\d\d\d\d\d\d\d_stats\.(txt|zip),blu00808714_stats.zip,-1,Y
+\EtlData\PresDruck\Raw,/data/archive/psd2/archive/PressureDruck/Raw,\w\w\w\d\d\d\d\d\d\d\.(p\d\d|zip),AGO0028708.P06,3,Y
+\EtlData\PresDruck\Stats,/data/archive/psd2/archive/PressureDruck/Stats,Unknown,Unknown,-1,Y
+\EtlData\PresValidyne\Raw,/data/archive/psd2/archive/PressureValidyne/Raw,Unknown,Unknown,-1,Y
+\EtlData\PresValidyne\Stats,/data/archive/psd2/archive/PressureValidyne/Stats,Unknown,Unknown,-1,Y
+\EtlBackupLog,/data/archive/psd2/archive/EtlBackupLog,\d\d\d\d\d\.(log|zip),08303.zip,0,Y
+\EtlLogs\CeilometerAcquisition,/data/archive/psd2/archive/EtlLogs/CeilometerAcquisition,\d\d\d\d\d\.(log|zip),08303.zip,0,Y
+\EtlLogs\CeilometerAcquisition,/data/archive/psd2/archive/EtlLogs/CeilometerAcquisition,\d\d\d\d\d\.(log|zip),08303.zip,0,Y
+\EtlLogs\ClockSynchronization,/data/archive/psd2/archive/EtlLogs/ClockSynchronization,\d\d\d\d\d\.(log|zip),08303.zip,0,Y
+\EtlLogs\CameraAcquisition,/data/archive/psd2/archive/EtlLogs/CameraAcquisition,\d\d\d\d\d\.(log|zip),08303.zip,0,Y
+\EtlLogs\DataAcquisition,/data/archive/psd2/archive/EtlLogs/DataAcquisition,\d\d\d\d\d\.(log|zip),08303.zip,0,Y
+\EtlLogs\DataloggerAcquisition,/data/archive/psd2/archive/EtlLogs/DataloggerAcquisition,\d\d\d\d\d\.(log|zip),08303.zip,0,Y
+\EtlLogs\DataWatchDog,/data/archive/psd2/archive/EtlLogs/DataWatchDog,\d\d\d\d\d\.(log|zip),08303.zip,0,Y
+\EtlLogs\DisdrometerAcquisition,/data/archive/psd2/archive/EtlLogs/DisdrometerAcquisition,\d\d\d\d\d\.(log|zip),08303.zip,0,Y
+\EtlLogs\FileManager,/data/archive/psd2/archive/EtlLogs/FileManager,\d\d\d\d\d\.(log|zip),08303.zip,0,Y
+\EtlLogs\LapXM,/data/archive/psd2/archive/EtlLogs/LapXM,\d\d\d\d\d\.(txt|zip),08303.zip,0,Y
+\EtlLogs\RadarDataParser,/data/archive/psd2/archive/EtlLogs/RadarDataParser,\d\d\d\d\d\.(log|zip),08303.zip,0,Y
+\EtlLogs\SatelliteMonitor,/data/archive/psd2/archive/EtlLogs/SatelliteMonitor,\d\d\d\d\d\.(log|zip),08303.zip,0,Y
+\EtlLogs\SerialAcquisition,/data/archive/psd2/archive/EtlLogs/SerialAcquisition,\d\d\d\d\d\.(log|zip),08303.zip,0,Y
+\EtlLogs\SystemAdministrator,/data/archive/psd2/archive/EtlLogs/SystemAdministrator,\d\d\d\d\d\.(log|zip),08303.zip,0,Y
+\EtlLogs\WaterVaporAcquisition,/data/archive/psd2/archive/EtlLogs/WaterVaporAcquisition,\d\d\d\d\d\.(log|zip),08303.zip,0,Y
+\EtlLogs\WindowsApplication,/data/archive/psd2/archive/EtlLogs/WindowsApplication,\d\d\d\d\d\.(evt|zip),08303.zip,0,Y
+\EtlLogs\WindowsSystem,/data/archive/psd2/archive/EtlLogs/WindowsSystem,\d\d\d\d\d\.(evt|zip),08303.zip,0,Y
