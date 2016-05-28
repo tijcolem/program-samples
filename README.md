@@ -17,7 +17,7 @@ NclGraphics:  Example ncl and python programs that produce graphics to support d
 
 ShefDistro: Example python programs that converts native data into SHEF encoded data.
 
-WebAppFrostForecastModels:  Web application decision support tool to alert users of potential frost. It uses js flot libraries to dynamically plot various model output data for temperature, relative humidity for specific locations in the country. More information can be found to the published paper: 
+WebAppFrostForecastModels:  Web application decision support tool to alert users of potential frost. It uses js flot libraries to dynamically plot various model output data for temperature, relative humidity for specific locations in the country. More information can be found viewing the published paper: 
 http://dx.doi.org/10.15191/nwajom.2016.0401
 
 WebAppGoogleMapScanRadar: Web application that uses Google Maps to overlay scanning radar raster images in real-time. It features two maps adjacent to each-other to allow side-by-side comparison of nearby scanning radars.  
