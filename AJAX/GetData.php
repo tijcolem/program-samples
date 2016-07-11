@@ -330,11 +330,6 @@ if ($row[2] == 4  ) {
    $format = 'ls %s/%04d/%03d/*%s* | tail -1';
    $SysCommand = sprintf($format, $BasePath, $LongYear, $JDay, $FileExt );
 
-#  $format = 'ls %s%s/%s/%04d/%03d/*%s* | tail -1';
-
-#  $SysCommand = sprintf($format, $BasePath, $row[0], $SiteID, $LongYear, $JDay, $FileExt );
-  
-
   exec($SysCommand, &$output);
 
   $pathparts = pathinfo( $output[0]);
@@ -364,11 +359,6 @@ if ($row[2] == 4  ) {
         $format = 'ls %s/%04d/%03d/*%s* | tail -1';
         $SysCommand = sprintf($format, $BasePath, $LongYear, $JDay, $FileExt );
        
-
-        #$format = 'ls %s/*%s* | tail -1';
-
-        #$format = 'ls %s%s/%s/%04d/%03d/*%s* | tail -1';
- 
         exec($SysCommand, &$output);
 
         $pathparts = pathinfo( $output[0]);
