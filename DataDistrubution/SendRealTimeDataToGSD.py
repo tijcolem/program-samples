@@ -37,7 +37,7 @@ def calday(i, hr, day):  # function to calc days
 
 
 PutPath = '/pub/psd'  # FTP put directory
-BasePath = '/data  # define source base path
+BasePath = '/data'  # define source base path. Some thing
 
 FTPServer = 'gpsdmz.fsl.noaa.gov'
 User = '***'
